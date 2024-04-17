@@ -54,7 +54,7 @@ function increse1() {
   count1++;
   points1.innerHTML = count1;
 
-  if (count1 > 2) {
+  if (count1 > 50) {
     photo1.src =
       "https://emojiisland.com/cdn/shop/products/Emoji_Icon_-_Sunglasses_cool_emoji_large.png?v=1571606093";
     photo1.style.width = "35vh";
@@ -72,7 +72,7 @@ function increse2() {
   count2++;
   points2.innerHTML = count2;
 
-  if (count2 > 2) {
+  if (count2 > 50) {
     photo2.src = "change2.png";
 
     photo2.style.width = "35vh";
@@ -83,7 +83,7 @@ function increse2() {
 }
 
 function updateImage(photo, count) {
-  if (count > 2) {
+  if (count > 50) {
     photo.src =
       "https://emojiisland.com/cdn/shop/products/Emoji_Icon_-_Sunglasses_cool_emoji_large.png?v=1571606093";
   }
