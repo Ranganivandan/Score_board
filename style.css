@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main{
+    width: 100%;
+    height: 90%;
+display: flex;
+}
+
+
+.left{
+    width: 50%;
+    height: 100%;
+background-color: aqua;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: relative;
+}
+
+
+#vs{
+    width: 10vh;
+    height: 10vh;
+    /* margin-left: 500px; */
+    position: absolute;
+    top: 50vh;
+
+    right: -35px;
+}
+
+
+
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(203, 195, 195);
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.card1{
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card1 h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 10vh;
+}
+.card2 h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 10vh;
+}
+.card2{
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+.card1 img{
+    border-radius: 120px;
+    
+}
+
+.card2 img {
+    border-radius: 120px;
+
+}
+
+
+
+
+
+.right1 img {
+    width: 8vh;
+    height: 8vh;
+   
+    
+
+cursor: pointer;
+}
+.left1 img {
+    width: 7vh;
+    height: 7vh;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

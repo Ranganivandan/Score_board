@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dispaly</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <h1 style="margin: 2vh">Team 1</h1>
+        <div class="card1">
+          <h1 id="card1h1">0</h1>
+
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnxhZNCcSV-TNe0qBQxthfXSN9TO1qZaGfYrTihr96AA&s"
+            alt="smile"
+            id="simle1"
+          />
+
+          <img
+            id="vs"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRqzQx1hxercgTKCfE1yYxTpPGgZb7uJZPHekJfMgyA&s"
+          />
+        </div>
+      </div>
+      <div class="right">
+        <h1 style="margin: 2vh">Team 2</h1>
+        <div class="card2">
+          <h1 id="card2h2">0</h1>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYeQfdfc3Gv_Z-wGLFIGPAibLQOy2NdmX453IrQok6StMBHCW5RpqOKtBKnBKQa_XlLI&usqp=CAU"
+            alt="smile2"
+            id="smile2"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="left1">
+        <div class="leftarrows">
+          <img onclick="decrese1()" src="back.png" />
+          <img onclick="increse1()" src="next.png" />
+        </div>
+      </div>
+      <div class="middle">
+        <button
+          class="reset"
+          style="
+            cursor: pointer;
+            width: 10vh;
+            font-size: 25px;
+            margin: 5px;
+            color: white;
+            background-color: black;
+          "
+          id="reset"
+          onclick="reset()"
+        >
+          reset
+        </button>
+      </div>
+
+      <div class="right1">
+        <div class="rightarrows">
+          <img onclick="decrese2()" src="back.png" />
+          <img onclick="increse2()" src="next.png" />
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CSSRulePlugin.min.js"
+      integrity="sha512-IxxYrSNXnt/RJlxNX40+7BQL88FLqvdpVpuV9AuvpNH/NFP0L8xA8WLxWTXx6PYExB5R/ktQisp6tIrnLn8xvw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+    <script src="gsap.js"></script>
+    <script>
+      (() => {
+        initialization();
+        // var photo1 = document.getElementById("simle1");
+        // var photo2 = document.getElementById("smile2");
+        // const count1 = localStorage.getItem("count1");
+        // const count2 = localStorage.getItem("count2");
+        // const url = localStorage.getItem("photo1");
+        // const url2 = localStorage.getItem("photo2");
+        // photo1.src = url;
+        // photo2.src = url2;
+        // photo1.style.width = "35vh";
+        // photo1.style.height = "35vh";
+        // photo2.style.width = "35vh";
+        // photo2.style.height = "35vh";
+        // var points1 = document.getElementById("card1h1");
+        // var points2 = document.getElementById("card2h2");
+        // points1.innerHTML = count1;
+        // points2.innerHTML = count2;
+      })();
+    </script>
+  </body>
+</html>
