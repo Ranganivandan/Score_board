@@ -33,6 +33,11 @@ function reset() {
 }
 
 function decrese1() {
+  photo1.src =
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnxhZNCcSV-TNe0qBQxthfXSN9TO1qZaGfYrTihr96AA&s";
+  photo1.style.width = "35vh";
+  photo1.style.height = "35vh";
+
   if (count1 <= 0) {
     alert("you touch the limit");
   } else {
@@ -42,6 +47,12 @@ function decrese1() {
 }
 
 function decrese2() {
+  photo2.src =
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYeQfdfc3Gv_Z-wGLFIGPAibLQOy2NdmX453IrQok6StMBHCW5RpqOKtBKnBKQa_XlLI&usqp=CAU";
+
+  photo2.style.width = "35vh";
+  photo2.style.height = "35vh";
+
   if (count2 <= 0) {
     alert("you touch the limit");
   } else {
